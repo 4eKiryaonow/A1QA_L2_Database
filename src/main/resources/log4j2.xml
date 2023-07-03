@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Properties>
+        <property name="pattern_cmd">%d{HH:mm:ss} %-5level %logger{1} - %m%n</property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern_cmd}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!--Loger LEVEL-->
+        <Root level="TRACE">
+            <!--ENABLES LOGGERS-->
+            <AppenderRef ref="Console" level="debug"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,12 @@
+{
+  "projectName": "Task_6_Database",
+  "buildNumber": 1,
+  "env": "WINDOWS 11",
+  "browser": "no browser",
+  "author": {
+    "name": "Kirill",
+    "login": "4ekiryaoNow",
+    "email": "k.popov@qa-academy.by"
+  },
+  "testAmount" : 10
+}

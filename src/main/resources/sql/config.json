@@ -1,0 +1,7 @@
+{
+  "url": "jdbc:mysql://localhost/%s",
+  "driver" : "com.mysql.cj.jdbc.Driver",
+  "user": "<Input user>",
+  "password" : "<Input password>",
+  "nameDB" : "union_reporting"
+}

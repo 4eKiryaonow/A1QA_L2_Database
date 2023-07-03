@@ -1,0 +1,8 @@
+{
+  "validPostId" : "99",
+  "validPostUserId" : "10",
+  "invalidPostId" : "150",
+  "userIdToCreatePost" : "1",
+  "lengthRandomString" : "10",
+  "invalidPostIdResponseBody" : "{}"
+}
